@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="342dp"
+        android:layout_height="705dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textViewTitre"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:background="#FF5722"
+            android:baselineAligned="false"
+            android:text="@string/protocole"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="298dp"
+            android:layout_height="42dp"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="512dp"
+            android:background="#FFC107"
+            android:text="@string/retour_l_accueil"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="339dp"
+        android:layout_height="467dp"
+        android:layout_marginTop="44dp"
+        android:columnCount="4"
+        android:rowCount="8"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/vide"
+            android:layout_width="62dp"
+            android:layout_height="29dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/matin"
+            android:layout_width="83dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="@string/matin"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/midi"
+            android:layout_width="68dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:text="@string/midi"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/soir"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:text="@string/soir"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_row="1"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_0_60g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin1"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi1"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir1"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_row="2"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_1_00g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin2"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi2"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir2"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_row="3"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_1_00g_1_50g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin3"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="3"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi3"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="3"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir3"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="3"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_row="4"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_1_50g_2_00g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin4"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="4"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi4"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="4"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir4"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="4"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_row="5"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_2_00g_2_50g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin5"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="5"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi5"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="5"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir5"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="5"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_row="6"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_2_50g_3_00" />
+                <TextView
+                    android:id="@+id/simpleEditMatin6"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="6"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi6"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="6"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir6"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="6"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_row="7"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/de_3_00g" />
+                <TextView
+                    android:id="@+id/simpleEditMatin7"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="7"
+                    android:layout_rowWeight="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditMidi7"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="7"
+                    android:layout_rowWeight="0"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:importantForAutofill="no"
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/simpleEditSoir7"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp"
+                    android:layout_row="7"
+                    android:layout_rowWeight="0"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:autofillHints=""
+                    android:textAlignment="center"
+                    android:textStyle="bold">
+                </TextView>
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Diabete</string>
+    <string name="protocole">PROTOCOLE</string>
+    <string name="enregistrer">ENREGISTRER</string>
+ 
+    <string name="de_0_60g">- de 0.60g</string>
+    <string name="de_1_00g">- de 1.00g</string>
+    <string name="de_1_00g_1_50g">1.00g à 1.50g</string>
+    <string name="de_1_50g_2_00g">1.50g à 2.00g</string>
+    <string name="de_2_00g_2_50g">2.00g à 2.50g</string>
+    <string name="de_2_50g_3_00">2.50g à 3.00g</string>
+    <string name="de_3_00g">+ de 3.00g</string>
+    <string name="matin">MATIN</string>
+    <string name="midi">MIDI</string>
+    <string name="soir">SOIR</string>
+    <string name="bienvenue_sur_diabe_tel">Bienvenue sur Diabe\'tel !</string>
+    <string name="voir_le_protocole">Voir le protocole</string>
+    <string name="calculer_le_bolus">Calculer le bolus</string>
+    <string name="enregistrer_le_protocole">ENREGISTRER LE PROTOCOLE</string>
+    <string name="button">Button</string>
+    <string name="afficher_le_protocole">Afficher le protocole</string>
+ 
+    <string name="vide">vide</string>
+    <string name="retour">Retour</string>
+    <string name="retour_l_accueil">Retour à l\'accueil</string>
+    <string name="_0">0</string>
+    <string name="modifier_le_protocole">MODIFIER LE PROTOCOLE</string>
+
+
+</resources>
